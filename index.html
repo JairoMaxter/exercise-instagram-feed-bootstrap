@@ -15,6 +15,7 @@
 </head>
 
 <body>
+<!--header-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-xl">
       <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i>Instagram</a>
@@ -63,13 +64,15 @@
       </div>
     </div>
   </nav>
-  <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+  <!--botones centrales-->
+  <div class="btn-toolbar mb-3 justify-content-center pagina" role="toolbar" aria-label="Toolbar with button groups">
     <div class="btn-group me-2" role="group" aria-label="First group">
-      <button type="button" class="btn btn-outline-secondary"><i class="fas fa-th"></i></button>
-      <button type="button" class="btn btn-outline-secondary"><i class="fas fa-square"></i></button>
+      <a type="button" class="btn btn-outline-secondary" href="#mosaico"><i class="fas fa-th"></i></a>
+      <a type="button" class="btn btn-outline-secondary" href="#timeline"><i class="fas fa-square"></i></a>
     </div>
   </div>
-  <div class="container">
+  <!--mosaico-->
+  <div class="container" id="mosaico">
     <div class="row">
       <div class="col-md-4">
         <img
@@ -126,6 +129,10 @@
       </div>
     </div>
   </div>
+  <!--timeline-->
+
+  
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
     integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
     crossorigin="anonymous"></script>
