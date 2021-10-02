@@ -59,71 +59,111 @@
     </div>
   </nav>
   <!--botones centrales-->
-  <div class="btn-toolbar mb-3 justify-content-center pagina" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-toolbar mb-3 justify-content-center pagina" id="myTab" role="toolbar"
+    aria-label="Toolbar with button groups">
     <div class="btn-group me-2" role="group" aria-label="First group">
-      <a type="button" class="btn btn-outline-secondary" href="#mosaico"><i class="fas fa-th"></i></a>
-      <a type="button" class="btn btn-outline-secondary" href="#timeline"><i class="fas fa-square"></i></a>
+      <a type="button" class="btn btn-outline-secondary" id="mosaico-tab" data-toggle="tab" href="#mosaico"><i
+          class="fas fa-th"></i></a>
+      <a type="button" class="btn btn-outline-secondary" id="timeline-tab" data-toggle="tab" href="#timeline"><i
+          class="fas fa-square"></i></a>
     </div>
   </div>
-  <!--mosaico-->
-  <div class="container" id="mosaico">
-    <div class="row">
-      <div class="col-md-4">
-        <img
-          src="https://images.unsplash.com/photo-1541958409-7618fd1ad26e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"
-          class="img-fluid" alt="...">
-      </div>
-      <div class="col-md-4">
-        <img
-          src="https://images.unsplash.com/photo-1463681457836-cc9f3f99608b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
-          class="img-fluid" alt="...">
-      </div>
-      <div class="col-md-4">
-        <img
-          src="https://images.unsplash.com/photo-1631523407536-c545fc12b068?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
-          class="img-fluid" alt="...">
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <img
-          src="https://images.unsplash.com/photo-1631820582315-b4cbd302818f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
-          class="img-fluid" alt="...">
-      </div>
-      <div class="col-md-4">
-        <img
-          src="https://images.unsplash.com/photo-1630345096530-8a1cdad7cbab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
-          class="img-fluid" alt="...">
-      </div>
-      <div class="col-md-4">
-        <img
-          src="https://media3.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif?cid=ecf05e47ue9npcawkngjxhkgma8s8tnzj79wn7zo8o88vgyr&rid=giphy.gif&ct=g"
-          class="img-fluid" alt="...">
+  <!--myTab-->
+  <div class="tab-content bg-light" id="myTabContent">
+    <!--mosaico-->
+    <div class="tab-pane fade show active container" role="tabpanel" aria-labelledby="mosaico-tab" id="mosaico">
+      <div class="row">
+
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1541958409-7618fd1ad26e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"
+            class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1463681457836-cc9f3f99608b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+            class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1631523407536-c545fc12b068?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+            class="img-fluid" alt="...">
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <img
-          src="https://media1.giphy.com/media/3oKIPl97G9KsnxS3XG/giphy.gif?cid=ecf05e47uvi4mgc17gjibhpld20m38mb3rz8l21ixg1s6ow8&rid=giphy.gif&ct=g"
-          class="img-fluid" alt="...">
-      </div>
-      <div class="col-md-4">
-        <img
-          src="https://media2.giphy.com/media/d3pWZDPyFKWRuRNK/giphy.gif?cid=ecf05e47ad7gwj0s96z60nzq5713vrho9kzv6b8y5djtsvht&rid=giphy.gif&ct=g"
-          class="img-fluid" alt="...">
-      </div>
-      <div class="col-md-4">
-        <img
-          src="https://images.unsplash.com/photo-1629463581809-83ebd7f58a29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-          class="img-fluid" alt="...">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1631820582315-b4cbd302818f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+            class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1630345096530-8a1cdad7cbab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+            class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://media3.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif?cid=ecf05e47ue9npcawkngjxhkgma8s8tnzj79wn7zo8o88vgyr&rid=giphy.gif&ct=g"
+            class="img-fluid" alt="...">
+        </div>
       </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://media1.giphy.com/media/3oKIPl97G9KsnxS3XG/giphy.gif?cid=ecf05e47uvi4mgc17gjibhpld20m38mb3rz8l21ixg1s6ow8&rid=giphy.gif&ct=g"
+            class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://media2.giphy.com/media/d3pWZDPyFKWRuRNK/giphy.gif?cid=ecf05e47ad7gwj0s96z60nzq5713vrho9kzv6b8y5djtsvht&rid=giphy.gif&ct=g"
+            class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1629463581809-83ebd7f58a29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            class="img-fluid" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <!--timeline-->
+
+    <div class="tab-pane fade bg-light" id="timeline" role="tabpanel" aria-labelledby="timeline-tab">
+
+      <div class="container pt-3 bg-light">
+        <div class="card m-auto">
+          <div class=" card-header d-flex justify-content-between">
+            <p>Mi Primera Foto</p>
+            <span>12/13</span>
+
+          </div>
+          <div class="card-body">
+            <img
+              src="https://images.unsplash.com/photo-1541958409-7618fd1ad26e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"
+              alt="">
+            <strong>105 likes</strong>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla vero sunt numquam corporis ex eum.</p>
+            <div class=" footer d-flex justify-content-between">
+              <div class="footer-left">
+                <i class="far fa-heart"></i>
+                <input style="border: none;" type="text" placeholder="Comment">
+              </div>
+              <div class="footer-right">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
   </div>
-  <!--timeline-->
+
+
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
